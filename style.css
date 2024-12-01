@@ -16,7 +16,72 @@ article {
   background-color: hsl(0, 0%, 100%);
   width: 384px;
   height: 500px;
-  border: 2px solid black;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-bottom: 5em;
+  box-shadow: 5px 5px;
+}
+
+.content {
+  width: 336px;
+  margin: auto;
+  margin-top: 1.3em;
+}
+
+svg {
+  border-radius: 15px;
+}
+
+.text h3,
+.text h4,
+.text h1 {
+  margin-bottom: 20px;
+}
+
+.text,
+.author {
+  margin-top: 1em;
+  font-family: "Rubik";
+  font-weight: 500;
+  /* border: 1px solid black; */
+}
+
+.learning {
+  font-size: 15px;
+  width: 90px;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.text h4 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.text h1 {
+  font-size: 22px;
+}
+
+.text p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.author {
+  img {
+    width: 30px;
+  }
+  display: flex;
+  align-items: center;
+}
+
+.author p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 10px;
 }
 
 .attribution {
